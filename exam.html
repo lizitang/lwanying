@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>test</title>
+</head>
+<body>
+	<input type="text" name="rank" id="a">
+	<script>
+		var input=document.getElementById("a");
+		input.onmousedown=function(){
+			console.log("mousedown")
+		}
+		input.onmouseup=function(){
+			console.log("mouseup")
+		}
+		input.onclick=function(){
+			console.log("click")
+		}
+		input.onfocus=function(){
+			console.log("focus");
+		}
+		//mosedown,focus,mouseup,click
+	</script>
+</body>
+</html>
