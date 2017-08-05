@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>inline-block+text-align</title>
+	<style>
+		.parent{
+			width:100px;
+			height:50px;
+			background: red;
+			position: relative;
+		}
+		.child{
+			width:60px;
+			height:30px;
+			background: green;
+			position: absolute;
+			left:50%;
+			top:50%;
+			transform: translate(-50%,-50%);
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="child">demo</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>inline-block+text-align</title>
+	<style>
+		.parent{
+			width:100px;
+			height:50px;
+			background: red;
+			text-align: center;
+			display: table-cell;
+			vertical-align:middle;
+		}
+		.child{
+			width:60px;
+			height:30px;
+			background: green;
+			display: inline-block;
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="child">demo</div>
+	</div>
+</body>
+</html>
