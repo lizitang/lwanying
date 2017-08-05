@@ -19,7 +19,7 @@ function clone(obj){
 			if(obj ===null){
 				copy = null;
 			}else{
-				if(object.prototype.toString().call(obj).slice(8,-1)==="Array"){
+				if(Object.prototype.toString.call(obj).slice(8,-1)==="Array"){
 					copy = [];
 					for(var i=0;i<obj.length;i++){
 						copy.push(clone(obj[i]));
@@ -27,7 +27,7 @@ function clone(obj){
 				}else{
 					copy = {};
 					for(var j in obj){
-						copy[j] = clone(obj[j])
+						copy[j] = clone(obj[j]);
 					}
 				}
 			}
