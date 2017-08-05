@@ -39,6 +39,7 @@ alert(b.name);//dog
 ```
 #### call，apply调用
 跟作为普通函数调用相比，用Function.prototype.call和Function.prototype.apply可以动态地改变函数的this。
+```
 var a = {
 	name:'dog',
 	getName:function(){
@@ -50,6 +51,7 @@ var b={
 }
 alert(a.getName());//dog
 alert(a.getName.call(b))//cat
+```
 
 
 
