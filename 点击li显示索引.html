@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>点击li显示索引</title>
+	<style>
+		li{
+			cursor:pointer;
+		}
+	</style>
+</head>
+<body>
+	<ul id="test">
+		<li class="list">a</li>
+		<li class="list">b</li>
+		<li class="list">c</li>
+		<li class="list">d</li>
+		<li class="list">e</li>
+	</ul>
+	<script>
+		var list=document.getElementsByTagName('li');
+		var len = list.length;
+		console.log(len);
+		for(var i=0;i<len;i++){
+			(function(idx){
+				list[i].onclick=function (){
+					console.log(idx)
+				}
+			})(i)
+		}
+	</script>
+</body
+</html>

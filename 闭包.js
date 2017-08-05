@@ -1,15 +1,8 @@
-var i = 1;
-(function(){
-	var start = new Date().getTime();
-	console.log(start);
-	var si=setInterval(function(){
-		var now = new Date().getTime();
-		if(now < (start+100)){
-			i++;
-		}else{
-			console.log(i);
-			clearInterval(si)
+//单击li弹出每个li的索引
+for(var i=0;i<len;i++){
+	(function(idx){
+		li.onclick=function(){
+			alert(idx);
 		}
-	},10);
-})();
-//10
+	})(i)
+}
