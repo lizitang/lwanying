@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>一列定宽，一列自适应</title>
+	<style>
+		.left{
+			width:200px;
+			height:100px;
+			background: red;
+			float: left;
+		}
+		.right{
+			overflow: hidden;
+			background: green;
+		}
+	</style>
+</head>
+<body>
+<!-- float+overflow:hidden -->
+	<div class="parent">
+		<div class="left">left</div>
+		<div class="right">right</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>一列定宽，一列自适应</title>
+	<style>
+		.parent{
+			display: flex;
+			width:100%;
+		}
+		.left{
+			width:200px;
+			background: red;
+		}
+		.right{
+			background: green;
+			flex:1;
+		}
+	</style>
+</head>
+<body>
+<!-- table,table-cell -->
+	<div class="parent">
+		<div class="left">left</div>
+		<div class="right">right</div>
+	</div>
+</body>
+</html>
