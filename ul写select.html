@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ul写select</title>
+	<style>
+		ul{
+			width:130px;
+			border:1px solid #000;
+			list-style: none;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<input type="text" placeholder="请选择">
+	<ul>
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+	</ul>
+	<script src="jquery-3.2.1.min.js"></script>
+	<script>
+		$('input').focus(function(){
+			$('ul').css('display','block')
+		})
+		for(var i=0;i<$('li').length;i++){
+			$('li').click(function(){
+				$('input').val($(this).text())
+				$('ul').css('display','none')
+			})
+		}
+	</script>
+</body>
+</html>

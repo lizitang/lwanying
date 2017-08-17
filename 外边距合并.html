@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>外边距合并</title>
+    <style>
+       /* 外边距合并指的是，当两个垂直外边距相遇时，它们将形成一个外边距。
+        合并后的外边距的高度等于两个发生合并的外边距的高度中的较大者。*/
+        *{
+            margin: 0;
+            padding:0;
+            border:0
+        }
+        #d1{
+            width:100px;
+            height:100px;
+            margin-top:20px;
+            margin-bottom:5px;
+            background: red;
+
+        }
+        #d2{
+            width:100px;
+            height:100px;
+            margin-top:10px;
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1"></div>
+    <div id="d2"></div>
+</body>
+</html>

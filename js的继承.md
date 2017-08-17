@@ -3,7 +3,7 @@
 object orient语言都支持两种继承方式：接口继承和实现继承，但是ECMAscript只支持实现继承  
 #### 原型链
     1.构造函数，原型和实例的关系
-        每个构造函数都有一个原型对象，原型对象都包含一个指向一个指向构造函数的指针，而实例都包含一个指向原型对象的指针
+        每个构造函数都有一个原型对象，原型对象都包含一个指向构造函数的指针，而实例都包含一个指向原型对象的指针
 ### ==构造函数的继承==       
 #### 1.借用构造函数(构造函数绑定)
     //动物对象的构造函数
@@ -19,14 +19,14 @@ object orient语言都支持两种继承方式：接口继承和实现继承，�
     //思考：怎么是猫继承动物呢
     //使用call和apply 的方法
     function Cat(name,color){
-        Animal.apply(this,arguments);
+        Animal.apply(this);
         this.name =name;
         this.color = color;
     }
     car cat1 = new Cat("大毛","黄色");
     
     console.log(cat1.species);//"动物"
-#### 组合继承(prototype模式)
+#### 2.组合继承(prototype模式)
 如果猫的prototype对象指向一个Animal的实例，那么所有"猫"的实例就能继承Animal了
  //动物对象的构造函数
     function Animal(){
@@ -46,7 +46,7 @@ object orient语言都支持两种继承方式：接口继承和实现继承，�
     Cat.prototype.constructor = Cat;
     var cat1 = new Cat();
     console.log(cat1.species)
-#### 利用空对象继承
+#### 3.利用空对象继承
     var F = function(){};
     F.prototype = Animal.prototype;
     Cat.prototype = new F();
@@ -65,7 +65,7 @@ object orient语言都支持两种继承方式：接口继承和实现继承，�
     var cat1 = new Cat("大毛","yellow");
     console.log(cat1.species);
     //child.uber,意思是为子对象设一个uber属性，这个属性指向父对象的prototype
-#### 拷贝继承
+#### 4.拷贝继承
     把Animal所有不变属性都放在prototype对象上
     function Animal(){};
     Animal.prototype.species = "动物";

@@ -1,6 +1,6 @@
 function ajax(url,options){
 	if(window.XMLHttpRequest){
-		xhr = new XHRHttpRequest;
+		xhr = new XMLHttpRequest;
 	}else{
 		xhr =new ActiveXObject('Microsoft.XMLHTTP');
 	}
