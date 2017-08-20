@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29db4592-3fb5-48c6-872b-b4efc37b5383" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/品字布局.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="29db4592-3fb5-48c6-872b-b4efc37b5383" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -102,8 +99,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="158" />
-    <option name="y" value="12" />
+    <option name="x" value="1" />
+    <option name="y" value="28" />
     <option name="width" value="1040" />
     <option name="height" value="692" />
   </component>
@@ -162,6 +159,7 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -341,14 +339,20 @@
       <option name="project" value="LOCAL" />
       <updated>1503129928594</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="品字布局">
+      <created>1503130080681</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1503130080681</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="7661000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="12" width="1040" height="692" extended-state="0" />
+    <frame x="1" y="28" width="1040" height="692" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19061877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -375,6 +379,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -392,7 +404,8 @@
     <MESSAGE value="map数据结构" />
     <MESSAGE value="两栏布局，内容优先加载" />
     <MESSAGE value="金山笔试编程题" />
-    <option name="LAST_COMMIT_MESSAGE" value="金山笔试编程题" />
+    <MESSAGE value="品字布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="品字布局" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
