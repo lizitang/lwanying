@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29db4592-3fb5-48c6-872b-b4efc37b5383" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/布局/双飞翼布局.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/布局/圣杯布局.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/一列定宽,一列自适应/2.html" afterPath="$PROJECT_DIR$/一列定宽,一列自适应/2.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -246,7 +243,7 @@
       <workItem from="1502768429197" duration="689000" />
       <workItem from="1502791509634" duration="845000" />
       <workItem from="1502965772456" duration="136000" />
-      <workItem from="1503041541343" duration="131000" />
+      <workItem from="1503041541343" duration="165000" />
     </task>
     <task id="LOCAL-00001" summary="Vip.com's bot_conversation">
       <created>1495596262152</created>
@@ -332,11 +329,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502965878683</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="圣杯布局，双飞翼布局">
+      <created>1503041690660</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1503041690660</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7868000" />
+    <option name="totallyTimeSpent" value="7902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="438" y="40" width="1066" height="958" extended-state="0" />
@@ -379,7 +383,8 @@
     <MESSAGE value="队列" />
     <MESSAGE value="对象合并" />
     <MESSAGE value="box-sizing" />
-    <option name="LAST_COMMIT_MESSAGE" value="box-sizing" />
+    <MESSAGE value="圣杯布局，双飞翼布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="圣杯布局，双飞翼布局" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
