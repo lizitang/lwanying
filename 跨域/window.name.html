@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>window.name</title>
+</head>
+<body>
+	<!-- 我的页面(http://damonare.cn/index.html)中内嵌了一个iframe：
+
+	<iframe id="iframe" src="http://www.google.com/iframe.html"></iframe> -->
+	index.html这么写
+	<script>
+		var iframe = document.getElementById('iframe');
+		var data = '';
+		 
+		iframe.onload = function() {
+		    iframe.onload = function(){
+		        data = iframe.contentWindow.name;
+		    }
+		    iframe.src = 'about:blank';
+		};
+	</script>
+</body>
+</html>

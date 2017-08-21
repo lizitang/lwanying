@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jsonp跨域</title>
+</head>
+<body>
+	<script type="text/javascript">  
+	    function jsonpCallback(result) {  
+	        //alert(result);  
+	        for(var i in result) {  
+	            alert(i+":"+result[i]);//循环输出a:1,b:2,etc.  
+	        }  
+	    }  
+	    var JSONP=document.createElement("script");  
+	    JSONP.type="text/javascript";  
+	    JSONP.src="http://192.168.2.246:8080/retrieveAllStaff?callback=jsonpCallback";
+	    document.getElementsByTagName("head")[0].appendChild(JSONP);  
+	</script>
+ 
+
+
+	<!-- a.html页面就是本页面需要用ajax获取一个不同域上的json数据，假设这个json数据地址是 http://example.com/data.php-->
+	<!-- <script src="../jquery-3.2.1.min.js"></script>
+	<script>
+		$.getJSON("http://192.168.2.246:8080/retrieveAllStaff?callback=?",function(data){
+			console.log(data)
+		})
+		$.ajax({
+			url:"http://192.168.2.246:8080/retrieveAllStaff",
+			type:"GET",
+			dataType:"jsonp",
+			success:function(data){
+				console.log(data)
+			}
+		})
+	</script> -->
+</body>	
+</html>

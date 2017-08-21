@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>document.domain跨域</title>
+</head>
+<body>
+	<!-- document.domain跨域 -->
+	<!-- http://www.damonare.cn/a.html和http://damonare.cn/b.html -->
+	<iframe id="iframe" src="http://damonare.cn/b.html" onload="test()"></iframe>
+	<script>
+		document.domain = "damonare.cn";//设置成主域
+		function test(){
+			 alert(document.getElementById('iframe').contentWindow)//可以获取iframe里的window对象
+		}
+	</script>
+
+	<!-- 页面b.html中 -->
+	<script>
+		document.domain ="damonare.cn";
+	</script>
+</body>
+</html>
