@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>postmessage跨域</title>
+</head>
+<body>
+	(1)damonare.cn域的A页面通过iframe嵌入了一个google.com域的B页面
+	
+
+	//A页面通过postMessage发送消息
+	<script>
+		window.onload = function(){
+			var ifr =document.getElementById('iframe')
+			var targetOrigin ="http://www.google.com"//目标域
+			ifr.contentWindow.postMessage('hello world',targetOrigin)
+		}
+
+		
+		
+	</script>
+	//B通过message事件监听并接受消息
+	<script>
+		var onmessage=function(event){
+			var data=event.data;
+			var origin=event.orgin;//消息来源地址
+			var source=event.source//源window对象
+			if(orgin=="http://www.baidu.com"){
+				console.log(data)
+			}
+		};
+
+		if (typeof window.addEventListener != 'undefined') {  
+		  window.addEventListener('message', onmessage, false);  
+		} else if (typeof window.attachEvent != 'undefined') {  
+		  //for ie  
+		  window.attachEvent('onmessage', onmessage);  
+		}  
+	</script>
+</body>
+</html>

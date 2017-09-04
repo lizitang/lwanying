@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="29db4592-3fb5-48c6-872b-b4efc37b5383" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+=======
     <list default="true" id="29db4592-3fb5-48c6-872b-b4efc37b5383" name="Default" comment="" />
+>>>>>>> 7f6adf19b395ef83408774bcdb4f1614d7fa6fc2
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -259,7 +265,12 @@
       <workItem from="1502094137525" duration="4888000" />
       <workItem from="1502768429197" duration="689000" />
       <workItem from="1502791509634" duration="845000" />
+<<<<<<< HEAD
+      <workItem from="1502965772456" duration="136000" />
+      <workItem from="1503041541343" duration="165000" />
+=======
       <workItem from="1502965772456" duration="60000" />
+>>>>>>> 7f6adf19b395ef83408774bcdb4f1614d7fa6fc2
     </task>
     <task id="LOCAL-00001" summary="Vip.com's bot_conversation">
       <created>1495596262152</created>
@@ -339,6 +350,20 @@
       <option name="project" value="LOCAL" />
       <updated>1503129928594</updated>
     </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00013" summary="圣杯布局，双飞翼布局">
+      <created>1503041690660</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1503041690660</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7902000" />
+=======
     <task id="LOCAL-00014" summary="品字布局">
       <created>1503130080681</created>
       <option name="number" value="00014" />
@@ -350,6 +375,7 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="7661000" />
+>>>>>>> 7f6adf19b395ef83408774bcdb4f1614d7fa6fc2
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="28" width="1040" height="692" extended-state="0" />
@@ -401,11 +427,18 @@
     <MESSAGE value="eval" />
     <MESSAGE value="ul模拟select控件" />
     <MESSAGE value="队列" />
+<<<<<<< HEAD
+    <MESSAGE value="对象合并" />
+    <MESSAGE value="box-sizing" />
+    <MESSAGE value="圣杯布局，双飞翼布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="圣杯布局，双飞翼布局" />
+=======
     <MESSAGE value="map数据结构" />
     <MESSAGE value="两栏布局，内容优先加载" />
     <MESSAGE value="金山笔试编程题" />
     <MESSAGE value="品字布局" />
     <option name="LAST_COMMIT_MESSAGE" value="品字布局" />
+>>>>>>> 7f6adf19b395ef83408774bcdb4f1614d7fa6fc2
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
