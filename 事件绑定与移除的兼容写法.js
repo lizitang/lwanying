@@ -1,7 +1,7 @@
 var EventUtil = {
 	addHandler:function(element,type,handler){
 		if(element.addEventListener){
-			element.addEventListener(type,handler,false)
+			element.addEventListener(type,handler,false)//采用事件冒泡false
 		}else if(element.attachEvent){
 			element.attachEvent('on'+type,handler)
 		}else{
