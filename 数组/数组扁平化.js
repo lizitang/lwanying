@@ -7,7 +7,7 @@ function flat(arr,newArr){
 		if(typeof arr[i] == "number"){
 			newArr.push(arr[i])
 		}else{
-			flat(arr,newArr)
+			flat(arr[i],newArr)
 		}
 	}
 	console.log(newArr);
